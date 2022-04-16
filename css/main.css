@@ -1,0 +1,38 @@
+@font-face {
+    font-family: ro;
+    src: url(../Fonts/Rixon-nj00.ttf);
+}
+
+@font-face {
+    font-family: so;
+    src: url(../Fonts/MechanismoRegular-p7ywa.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: so;
+    width: 100%;
+    background-color: red;
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    
+}
+
